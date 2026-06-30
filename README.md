@@ -145,3 +145,20 @@ UART_UVM_PROJECT/
 - ModelSim / QuestaSim (or equivalent)
 - GTKWave (waveform analysis)
 
+---
+
+## Verification Results
+
+Simulation results showing successful UART verification with 
+constrained random testing:
+
+![Simulation Results 1](screenshots/simulation_result1.png)
+
+![Simulation Results 2](screenshots/simulation_result2.png)
+
+**Test Results:**
+- ✅ 100+ random transactions verified
+- ✅ All transmitted data matches received data
+- ✅ Parity error detection working
+- ✅ Stop bit error detection working
+- ✅ RESULT: PASS
